@@ -3,7 +3,7 @@ train:
   model_path: 'boston_housing/model.py'
   cloud: "gcp"
   cpu_count: 8
-  gpu_count: 0
+  gpu_count: 1
   memory_size: 16
   image_tag: 'master'
   options:
