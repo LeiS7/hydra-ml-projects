@@ -1,11 +1,12 @@
 train:
-  'project_name': 'boston_housing'
+  project_name: 'boston_housing'
   model_path: 'boston_housing/model.py'
   cloud: "gcp"
   cpu_count: 8
   gpu_count: 1
   memory_size: 16
-  image_tag: ''
+  image_url: 'gcr.io/hydra-gcp-test-291317/hydra_image'
+  image_tag: 'master'
   options:
     - batch_size: 1
       epoch: 5
