@@ -5,7 +5,7 @@ train:
   cpu_count: 8
   gpu_count: 1
   memory_size: 16
-  image_tag: 'master'
+  image_tag: ''
   options:
     - batch_size: 1
       epoch: 5
